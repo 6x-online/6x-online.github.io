@@ -22,3 +22,14 @@ window.addEventListener("load", function() {
       loadGoogleAnalytics("G-EQ4HXG747G");
     }
 });
+
+
+(function () {
+    const script = document.createElement('script');
+
+    script.async = true;
+    script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5305579698272359';
+    script.crossOrigin = 'anonymous';
+
+    document.head.appendChild(script);
+})();
